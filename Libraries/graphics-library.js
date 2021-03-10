@@ -118,5 +118,5 @@ function ellipse(x, y, xRadius, yRadius, rotation, mode) {
 }
 
 function image(img, x, y, w, h) {
-  ctx.drawImage(img, x, y, w, h);
+	ctx.drawImage(img, x, y, w, h);
 }

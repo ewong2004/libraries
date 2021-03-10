@@ -6,9 +6,29 @@ function randomDec(low, high) {
 	return Math.random() * (high - low) + low;
 }
 
+let randomDecArray = []
+function decRandomArray(low, high, num) {
+
+	for (let q = 0; q < num; q++) {
+		randomDecArray.push(Math.random() * (high - low) + low)
+	}
+	return randomDecArray
+
+}
+
 // Exclusive
 function randomInt(low, high) {
 	return Math.floor(Math.random() * (high - low) + low);
+}
+
+let randomIntArray = []
+function intRandomArray(low, high, num) {
+
+	for (let q = 0; q < num; q++) {
+		randomIntArray.push(Math.random() * (high - low) + low)
+	}
+	return randomIntArray
+
 }
 
 function randomRGB() {
